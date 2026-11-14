@@ -1,0 +1,4 @@
+- insert:
+    - id: e621-style
+      name: '@xiaohuangbo/dsh-e621-style'
+      config: {}

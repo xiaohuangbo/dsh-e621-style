@@ -1,0 +1,76 @@
+{
+  "name": "@xiaohuangbo/dsh-e621-style",
+  "version": "1.2.0",
+  "private": false,
+  "description": "The classic e621 blue hexagon theme for DeepSeek Harness: custom backgrounds, a random image library, timed rotation, colorful code highlighting and an in-page settings panel. e621 蓝色六边形主题：自定义背景、随机图库、定时轮换、彩色代码高亮与独立设置页。",
+  "keywords": [
+    "dsh",
+    "deepseek",
+    "harness",
+    "deepseek-harness",
+    "dsh-plugin",
+    "theme",
+    "skin",
+    "e621",
+    "background"
+  ],
+  "homepage": "https://github.com/xiaohuangbo/dsh-e621-style",
+  "bugs": {
+    "url": "https://github.com/xiaohuangbo/dsh-e621-style/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xiaohuangbo/dsh-e621-style.git"
+  },
+  "author": "xiaohuangbo",
+  "license": "MIT",
+  "type": "module",
+  "main": "./index.js",
+  "exports": {
+    ".": "./index.js",
+    "./client": "./client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "files": [
+    "index.js",
+    "client.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "README.md",
+    "LICENSE",
+    "THIRD_PARTY_NOTICES.md",
+    "20261114_004059.png",
+    "20261114_004154.png"
+  ],
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node --test",
+    "check": "node --check index.js && node --check client.js && node --check client.source.js && node --test",
+    "publish:npm": "env 'npm_config_@xiaohuangbo:registry=https://registry.npmjs.org' npm publish --registry=https://registry.npmjs.org --access public",
+    "publish:gh": "npm publish --registry=https://npm.pkg.github.com --access public",
+    "publish:both": "npm run publish:npm && npm run publish:gh"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/",
+    "access": "public"
+  },
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "immediately": true,
+      "inject": [
+        "@deepseek-ai/dsh-client-ui-theme",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-settings"
+      ]
+    }
+  }
+}

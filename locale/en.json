@@ -1,0 +1,21 @@
+{
+  "meta":{"title":"e621 blue theme","description":"The classic e621 blue style with custom backgrounds, a random library and timed rotation."},
+  "ui":{
+    "title":"e621 blue theme","subtitle":"Deep blue panels · Pale blue links · Gold accents · Hexagonal texture","language":"Interface language","languageAuto":"Auto","languageZh":"中文","languageEn":"English",
+    "enable":"Enable e621 theme","enabledHint":"Turn off to restore the current DSH appearance. Background preferences are retained.",
+    "mode":"Background mode","pattern":"Classic hexagons","none":"Solid color","custom":"Single image","random":"Random library",
+    "appearance":"Background and readability","opacity":"Panel opacity","dim":"Background dimming","blur":"Background blur","scale":"Custom image scale","scaleHint":"At 100%, the selected sizing mode above is preserved. 25%–300% adjusts the image relative to the background area.","fit":"Image sizing","position":"Image position",
+    "cover":"Cover (crop)","contain":"Contain","auto":"Original size","center":"Center","top":"Top","bottom":"Bottom","left":"Left","right":"Right",
+    "classic":"Classic light inputs","classicHint":"White inputs with black text and a pale yellow focus fill, following e621.",
+    "customTitle":"Custom background image","url":"Image URL","urlPlaceholder":"https://example.com/background.jpg","apply":"Apply image URL","upload":"Choose a local image","uploadHint":"PNG, JPEG, WebP, GIF and AVIF; up to 6 MiB per image. Images are stored in this browser.",
+    "randomTitle":"Random background library","randomHint":"Randomly chooses from your images, avoiding immediate repeats where possible. No third-party random-image API is contacted.",
+    "addUrls":"Add image URLs (one per line)","add":"Add to library","uploadMany":"Import local images","next":"Randomize now","randomOnLoad":"Randomize on every page load","interval":"Rotation interval (seconds)","intervalHint":"0 disables rotation; otherwise 15–86400 seconds. Rotation pauses while the page is hidden.",
+    "gallery":"Library","empty":"The library is empty. Add URLs or import local images.","use":"Use","remove":"Remove","clear":"Clear library","clearConfirm":"Click again to clear","count":"images","preview":"Current background","previewTitle":"e621 style preview","previewText":"Blue panels, clear text and pale blue links.",
+    "saved":"Saved","loading":"Loading background preferences…","imageLoading":"Loading background image…","imageFailed":"The background failed to load. The last available background was kept. Check the URL, hotlink protection or connection.",
+    "storageFailed":"Could not save background preferences: ","invalid":"Invalid setting: ","noImages":"Add images to the library first.","fileTooLarge":"Image exceeds 6 MiB: ","fileType":"Unsupported image format: ","libraryFull":"The library allows up to 100 images and approximately 24 MiB of data.","working":"Processing…",
+    "privacy":"Visual preferences are kept in this browser’s IndexedDB for this site. Remote images load directly in the browser. The plugin does not read conversations, connect to e621 or scrape images.",
+    "reset":"Restore theme defaults","resetConfirm":"Click again to reset","resetHint":"Reset removes this plugin’s saved library and background preferences.",
+    "conflict":"Use one overall skin at a time to avoid conflicting overrides from Claude or other style plugins.","storageUnavailable":"Browser storage is unavailable. Defaults can be displayed, but saving will report an error.",
+    "currentImage":"Current image","imageAlt":"Background thumbnail","fileReadFailed":"Could not read image: "
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "meta": {"title":"e621 蓝色主题","description":"移植 e621 默认蓝色风格，支持自定义背景、随机图库与定时轮换。"},
+  "ui": {
+    "title":"e621 蓝色主题","subtitle":"深蓝面板 · 淡蓝链接 · 金色强调 · 六边形纹理","language":"界面语言","languageAuto":"自动","languageZh":"中文","languageEn":"English",
+    "enable":"启用 e621 主题","enabledHint":"关闭后恢复 DSH 当前外观，背景设置仍会保留。",
+    "mode":"背景模式","pattern":"经典六边形","none":"纯色背景","custom":"指定图片","random":"随机图库",
+    "appearance":"背景与可读性","opacity":"面板不透明度","dim":"背景暗色遮罩","blur":"背景模糊","scale":"自定义图片缩放","scaleHint":"100% 保持上方所选缩放模式。25%～300% 调整图片相对背景区域宽度的比例。","fit":"图片缩放","position":"图片位置",
+    "cover":"铺满（裁切）","contain":"完整显示","auto":"原始大小","center":"居中","top":"顶部","bottom":"底部","left":"左侧","right":"右侧",
+    "classic":"经典亮色输入框","classicHint":"采用 e621 的白底黑字输入框，聚焦时为淡黄色。",
+    "customTitle":"指定背景图片","url":"图片网址","urlPlaceholder":"https://example.com/background.jpg","apply":"应用图片网址","upload":"选择本地图片","uploadHint":"支持 PNG、JPEG、WebP、GIF、AVIF，每张最多 6 MiB。图片保存在当前浏览器中。",
+    "randomTitle":"随机背景图库","randomHint":"从你添加的图片中随机选择，尽量避免与上一张重复；不访问外部随机图片接口。",
+    "addUrls":"添加图片网址（每行一个）","add":"加入图库","uploadMany":"批量导入本地图片","next":"随机换一张","randomOnLoad":"每次打开页面随机选择","interval":"自动切换间隔（秒）","intervalHint":"0 表示关闭；启用时为 15～86400 秒。页面隐藏时暂停轮换。",
+    "gallery":"图库","empty":"图库为空，请添加图片网址或导入本地图片。","use":"使用","remove":"移除","clear":"清空图库","clearConfirm":"再次点击以确认清空","count":"张图片","preview":"当前背景","previewTitle":"e621 风格预览","previewText":"蓝色面板、清晰文字与淡蓝链接。",
+    "saved":"已保存","loading":"正在读取背景设置…","imageLoading":"正在加载背景图片…","imageFailed":"背景图片加载失败，已保留上一张可用背景。请检查网址、防盗链或网络连接。",
+    "storageFailed":"无法保存背景设置：","invalid":"设置无效：","noImages":"请先向图库添加图片。","fileTooLarge":"图片超过 6 MiB：","fileType":"不支持此图片格式：","libraryFull":"图库最多 100 张，总数据最多约 24 MiB。","working":"正在处理…",
+    "privacy":"背景偏好保存在当前浏览器、当前站点的 IndexedDB 中。外部图片由浏览器直接加载；插件不读取会话，不连接 e621，也不抓取站点图片。",
+    "reset":"恢复主题默认设置","resetConfirm":"再次点击以确认重置","resetHint":"重置会移除本插件保存的图库和背景偏好。",
+    "conflict":"同一时间请只启用一个整体样式插件，避免与 Claude 等皮肤互相覆盖。","storageUnavailable":"浏览器存储不可用，本次只能使用默认外观，保存操作会显示错误。",
+    "currentImage":"当前图片","imageAlt":"背景缩略图","fileReadFailed":"读取图片失败："
+  }
+}
